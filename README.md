@@ -9,20 +9,19 @@ All prerequisite assets must be arranged before running any script (see `README6
 1. **Datasets**
    - Place the evaluation annotations under `data/MIMIC-VQA-CoT/annotations/{eval,hard_uniform,uniform,...}`.
    - Images live in `data/MIMIC-VQA-CoT/images/`.
-   - Download links: `https://drive.google.com/drive/folders/1p-GlXypee4UvnwMmfjn3KVuAh9SBuKz_`.
+   - Annotation Download links ([Google Drive](https://drive.google.com/drive/folders/1p-GlXypee4UvnwMmfjn3KVuAh9SBuKz_))
 
 2. **SFT Checkpoints**
-   - Store the restored Phi-4 SFT weights in `./checkpoints/
-   restore_MIMIC_Think_phi4_ep1_lr6e-5/`.
-   - Download links: `https://drive.google.com/file/d/1k_K1ALsdtSnQkM6RddLNtIqbdXeaof4p/view?usp=drive_link`.
+   - Store the restored Phi-4 SFT weights in `./checkpoints/restore_MIMIC_Think_phi4_ep1_lr6e-5/`.
+   - Download links ([Google Drive](https://drive.google.com/file/d/1k_K1ALsdtSnQkM6RddLNtIqbdXeaof4p/view?usp=drive_link), [Huggingface](https://huggingface.co/ecoxial2007/CheX-Phi4MM-SFT))
 
 3. **ReXKG assets**
-   - Hugging Face model `microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext` should be downloaded and renamed into `./utils/test_REXKG/BiomedNLP`.
-   - Pre-computed ReXKG outputs go under `./utils/test_REXKG/result1/run_entity` and `run_relation` (download from `https://drive.google.com/drive/folders/1sNZDT8bI97AJwBGq_O5Y8oMrTjmA0Fpe`).
+   - Hugging Face model ([Download link](https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext)) should be downloaded and renamed into `./utils/test_REXKG/BiomedNLP`.
+   - Pre-computed ReXKG outputs go under `./utils/test_REXKG/result1/run_entity` and `run_relation` (download from [Google Drive](https://drive.google.com/drive/folders/1sNZDT8bI97AJwBGq_O5Y8oMrTjmA0Fpe)).
 
 4. **GRPO Checkpoints for evaluation**
    - Store the restored GRPO weights in `./checkpoints/anywhere_you_like/`.
-   - Download links: `https://drive.google.com/drive/`.
+   - Download links ([Google Drive](https://drive.google.com/drive/u/1/folders/17gCRuV-joWF6pQJta-eiUtcpB55leh5X), [Huggingface](https://huggingface.co/ecoxial2007/CheX-Phi4MM-GRPO))
 
 ## 2. Environment Setup
 
