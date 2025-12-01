@@ -14,7 +14,7 @@ All prerequisite assets must be arranged before running any script (see `README6
 2. **SFT Checkpoints**
    - Store the restored Phi-4 SFT weights in `./checkpoints/
    restore_MIMIC_Think_phi4_ep1_lr6e-5/`.
-   - Download links: `https://drive.google.com/drive/`.
+   - Download links: `https://drive.google.com/file/d/1k_K1ALsdtSnQkM6RddLNtIqbdXeaof4p/view?usp=drive_link`.
 
 3. **ReXKG assets**
    - Hugging Face model `microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext` should be downloaded and renamed into `./utils/test_REXKG/BiomedNLP`.
