@@ -141,7 +141,16 @@ When `FREEZE_NON_VISION_PARAMS=1`, the module dynamically patches `GRPOTrainer` 
 ## 10. Citation
 
 ```
-To be added.
+@misc{liang2025chexpov2preferenceoptimizationchest,
+      title={CheXPO-v2: Preference Optimization for Chest X-ray VLMs with Knowledge Graph Consistency}, 
+      author={Xiao Liang and Yuxuan An and Di Wang and Jiawei Hu and Zhicheng Jiao and Bin Jing and Quan Wang},
+      year={2025},
+      eprint={2512.17213},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.17213}, 
+}
+
 ```
 
 ## 11. Acknowledgements
